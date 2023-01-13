@@ -1,0 +1,43 @@
+.calculator{
+    width: 25vw;
+    height: 65vh;
+    border: 1px solid red;
+    margin: auto;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#F1F1F1;
+    overflow: hidden;
+    height: 100px;
+    
+}
+.default{
+    margin-right: 40px;
+
+}
+
+.btns{
+    margin-top: 25px;
+    margin-left: 20px;
+ display: grid;
+ grid: 50px/auto auto auto auto;
+ gap: 20px;
+ 
+
+ 
+
+    
+
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: none;
+}
+.btns>:nth-child(16){
+    background-color: red;
+}
+
